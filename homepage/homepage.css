@@ -32,7 +32,6 @@ main h2{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     position: relative;
     justify-content: center;
-    background-color: white;
     padding: 10px;
 }
 .gallery_jersey>p{
@@ -74,7 +73,7 @@ main h2{
 }
 
 /*Must Have Section*/
-section{
+.category-jersey{
     margin: 0 auto;
 }
 .must-have{
@@ -87,7 +86,7 @@ section{
     box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
     justify-content: center;
 }
-section h2{
+.category-jersey_heading{
     margin-top: 100px;
     text-align: center;
 }
