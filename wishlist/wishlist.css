@@ -1,4 +1,4 @@
-@import url(../nav1.css);
+@import url("../nav1.css");
 
 .product-list-header{
     display: flex;
@@ -12,11 +12,9 @@
     margin: 0 180px;
 }
 .product-item{
-    
     height: 350px;
     margin-left:10px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-    
 }
 .card-img{
     height: 230px;
@@ -46,7 +44,6 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-
 }
 .badge{
     background-color:#13A098;
@@ -96,13 +93,14 @@
     padding: 1px;
     color:grey
 }
+.red-text {
+    color: red;
+}
 
 .wishlist-management>h1{
     text-align: center;
     margin-bottom: 40px;
-
 }
-
 .wishlist-align{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -112,7 +110,6 @@
       display:grid;
       grid-template-columns: repeat(2,1fr);
       margin: 0;
-      
   }
 }
 @media screen and (max-width: 1100px) and (min-width: 1024px) {
@@ -125,6 +122,3 @@
   
  
 
-.red-text {
-    color: red;
-}
