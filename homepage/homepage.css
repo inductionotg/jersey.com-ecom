@@ -1,0 +1,227 @@
+@import url("../nav1.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery{
+    margin: 10px auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap:5px;
+    row-gap: 5px;
+}
+main h2{
+    text-align: center;
+    margin: 30px;
+    font: Futura, sans-serif;
+    line-height:24.5px;
+    color:red;
+}
+.gallery_img{
+    width:200px;
+    height:250px;
+}
+.gallery_img:hover{
+    transform: scale(1.04);
+}
+.gallery_jersey{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+    justify-content: center;
+    padding: 10px;
+}
+.gallery_jersey>p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:white;
+}
+
+.btn_jersey{
+    background-color: white;
+    color: green;
+    padding: 3px 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.jersey_text_ind{
+    background-color:orangered
+}
+.jersey_text_eng{
+    background-color:#61ACC3
+}
+.jersey_text_sl{
+    background-color:#048CE8
+}
+.jersey_text_nz{
+    background-color:#121212
+}
+.jersey_text_aus{
+    background-color:#F0EF21
+}
+.jersey_text_sa{
+    background-color:#77D696
+}
+
+/*Must Have Section*/
+.category-jersey{
+    margin: 0 auto;
+}
+.must-have{
+    max-width: 1200px;
+    margin: 2rem auto;
+    height: 40px;
+    display: flex;
+    height:400px;
+    gap: 15px;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    justify-content: center;
+}
+.category-jersey_heading{
+    margin-top: 100px;
+    text-align: center;
+}
+.must-have__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid orange;
+}
+.must-have_text{
+    text-align: center;
+    font-family: 'Redressed', cursive;
+    font-size:2rem;
+    background-color: #3A79C3;
+    opacity: 0.9; 
+}
+.retro_img{
+    width: 300px;
+    height: 300px;
+}
+.ipl_jersey{
+    background-color: #E1E1E1;
+}
+.odi_jersey{
+    background-color: #D2CFDA;
+}
+.mvp{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px;
+    background-color: #EDEDE9;
+    border: 1px soild black;
+}
+.mvp-official
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.mvp-official>p,.mvp-collection>p,.mvp-shipping>p{
+    padding: 20px;
+    font-family: 'Trim-regular';
+    font-weight: 500;
+    font-size: 1rem;
+}
+.mvp-collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.mvp-shipping{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.mvp-return{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.mvp-img{
+    height:60px;
+    width:60px;
+}
+.report-header{
+    font-size:2rem;
+    font-weight: bold;
+}
+.about-us{
+    margin-top: 20px;
+    width: 90%;
+    text-align: center;
+    background-color:grey;
+    margin-bottom: 30px;
+    height:20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us h1{
+    padding:20px;
+    color: Orange;
+}
+
+@media (max-width: 480px) {
+    nav li:nth-child(1),
+    nav li:nth-child(3){
+        display: none;
+    }
+    input[type="text"]{
+        width: 200px;
+        height: 30px;
+    }
+    .gallery{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 250px 250px 250px;
+    }
+    .gallery_img{
+        width:180px;
+        height:200px;
+    }
+    .btn_jersey{
+        padding: 1px 4px;
+        text-align: center;
+        display: inline-block;
+        font-size: 1rem;
+        margin: 5px 10px;
+        cursor: pointer;
+        text-decoration: none;
+    
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    .gallery{
+    grid-template-columns: repeat(4,1fr);
+    padding: 20px;
+    
+    }
+  }
+  @media screen and (min-width: 1350px) {
+    .gallery{
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    padding: 20px;
+    
+    }
+  }
