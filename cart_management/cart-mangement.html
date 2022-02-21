@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart-management.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bf13f25644.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <header>
+            <div class="header">
+                <nav>
+                
+                    <a class="logo" href="../homepage/homepage.html">Jersey.com</a>
+                    <input type="text" placeholder="search"> 
+                    <ul>
+                        <li>
+                            <a href="../login/login.html"><button class="login-btn">Login</button></a>
+                        </li>
+                        <li>
+                            <a href="../profile/profile.html"><i class="fas fa-solid fa-user"></i></a>
+                        </li>
+                        
+                        <li>
+                            <div class="nav-icon">
+                            <span class="nav-icon__item1"><a href="#"><i class="fas fa-solid fa-cart-arrow-down"></i></a></span>
+                            <span class="notification-badge">99</span>
+                        </div>
+                        </li>
+                        <li>
+                            <div class="nav-icon">
+                                <span class="nav-icon__item1"><a href="../wishlist/wishlist.html"><i class="fas fa-thin fa-heart"></i></a></span>
+                                <span class="notification-badge">99</span>
+                            </div>
+            
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="container-cart">
+            <h1>My Cart</h1>
+            <div class="cart">
+                <div class="products-cart">
+                    <div class="product">
+                        <img src="../img/rcb.jpg" alt="">
+                        <div class="product-info">
+                            <h3 class="product-name">RCB Jersey</h3>
+                            <h2 class="product-price">Rs 2999</h2>
+                            <h2 class="product-mrp">Rs 5999</h2>
+                            <h2 class="product-offer">50% Off</h2>
+                            <p class="quantity">Qnt:<input value="1" name=""></p>
+                            <button class="product-remove"><i class="fas fa-solid fa-trash-can"></i>Move to Wishlist</button>
+                            <button class="product-remove1">Remove From Cart</button>
+                            
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="../img/ipl_csk.jpg" alt="">
+                        <div class="product-info">
+                            <h3 class="product-name">CSK Jersey</h3>
+                            <h2 class="product-price">Rs 1000</h2>
+                            <h2 class="product-mrp">Rs 1000</h2>
+                            <h2 class="product-offer">50% off</h2>
+                            <p class="quantity">Qnt:<input value="1" name=""></p>
+                            <button class="product-remove"><i class="fas fa-solid fa-trash-can"></i>Move to Wishlist</button>
+                            <button class="product-remove1">Remove From Cart</button>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-total">
+                        <p>
+                            <span>Total MRP</span>
+                            <span>RS 6000</span>
+                        </p>
+                        <p>
+                            <span>Number of items</span>
+                            <span>2</span>
+                        </p>
+                        <p>
+                            <span>Discount of MRP </span>
+                            <span>-RS 3000</span>
+                        </p>
+                        <p>
+                            <span>Shipping Charges</span>
+                            <span>Rs 499</span>
+                        </p>
+                        <hr>
+                        <p>
+                            <span>You Save</span>
+                            <span>Rs 4000</span>
+                        </p>
+                        <a href="#">Proceed to Checkout</a>
+
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>
