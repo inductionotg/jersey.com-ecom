@@ -1,4 +1,4 @@
-@import url("../nav1.css");
+@import url("nav1.css");
 *{
     margin: 0;
     padding: 0;
@@ -163,6 +163,7 @@ main h2{
 .report-header{
     font-size:2rem;
     font-weight: bold;
+    text-align: center;
 }
 .about-us{
     margin-top: 20px;
@@ -175,11 +176,13 @@ main h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px auto;
 }
 
 .about-us h1{
     padding:20px;
     color: Orange;
+    
 }
 
 @media (max-width: 480px) {
