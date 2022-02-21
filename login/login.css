@@ -1,0 +1,77 @@
+@import url(../nav1.css);
+
+
+.login-container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+    margin-top: 60px;
+}
+.login-form{
+    background-color: white;
+    padding:10px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+.flex-input{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+input[type="email"],[type="password"]{
+    padding: 8px;
+    font-size: 1rem;
+}
+label{
+    flex-basis:130px;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+input[type="button"]{
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    margin: 20px 0;
+    border: none;
+
+}
+input[type="button"]:hover{
+    cursor: pointer;
+    background-color: darkorange;
+}
+.remember-section{
+    display: flex;
+}
+.remember-section div{
+    flex:1;
+}
+.remember-section a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.remember-section a:hover{
+    text-decoration: underline;
+}
+.new-account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.new-account a{
+    text-decoration: none;
+}
+@media all and (max-width:480px){
+    .flex-input{
+        flex-direction: column;
+    }
+    label{
+        flex-basis: 0;
+    }
+}
