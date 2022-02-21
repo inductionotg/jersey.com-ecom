@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bf13f25644.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <header>
+            <div class="header">
+                <nav>
+                
+                    <a class="logo" href="../homepage/homepage.html">Jersey.com</a>
+                    <input type="text" placeholder="search"> 
+                    <ul>
+                        <li>
+                            <a href="../login/login.html"><button class="login-btn">Login</button></a>
+                        </li>
+                        <li>
+                            <a href="../profile/profile.html"><i class="fas fa-solid fa-user"></i></a>
+                        </li>
+                        
+                        <li>
+                            <div class="nav-icon">
+                            <span class="nav-icon__item1"><a href="../cart_management/cart-mangement.html"><i class="fas fa-solid fa-cart-arrow-down"></i></a></span>
+                            <span class="notification-badge">99</span>
+                        </div>
+                        </li>
+                        <li>
+                            <div class="nav-icon">
+                                <span class="nav-icon__item1"><a href="../wishlist/wishlist.html"><i class="fas fa-thin fa-heart"></i></a></span>
+                                <span class="notification-badge">99</span>
+                            </div>
+            
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <section>
+        <div class="product">
+            <div class="product-main-container">
+
+               <div class="filter-container">
+                   <div class="filter-header">
+                       <h4>Filters</h4>
+                       <button class="btn-clear">Clear</button>
+                   </div>
+
+                <div class="filter-price">
+                    <h4>Price</h4>
+                    <div class="flex-gap">
+                        <div class="price-range">
+                            <p>500</p>
+                            <p>1000</p>
+                            <p>2000</p>
+                        </div>
+                        <input type="range" name="rangeInput" class="slider" min="500" max="2000">
+                    </div>
+                </div>
+
+                <div class="filter-category">
+                    <h4>Category</h4>
+                    <div class="flex-gap">
+                        <label class="select-input">
+                            <input type="checkbox" name="light" class="checkbox-input" value="" checked>
+                            <span class="check-desc">IPL Jersey</span>
+                        </label>
+                        <label class="select-input">
+                            <input type="checkbox" name="light" class="checkbox-input" value="">
+                            <span class="check-desc">Test Jersey</span>
+                        </label>
+                        <label class="select-input">
+                            <input type="checkbox" name="light" class="checkbox-input" value="">
+                            <span class="check-desc">ODI jersey</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-rating">
+                    <h4>Rating</h4>
+                    <div class="flex-gap">
+                        <label class="select-input">
+                            <input type="radio" name="rating" class="radio-input" value="" checked>
+                            <span class="check-desc">4 Stars & above</span>
+                        </label>
+                        <label class="select-input">
+                            <input type="radio" name="rating" class="radio-input" value="">
+                            <span class="check-desc">3 Stars & above</span>
+                        </label>
+                        <label class="select-input">
+                            <input type="radio" name="rating" class="radio-input" value="">
+                            <span class="check-desc">2 Stars & above</span>
+                        </label>
+                        <label class="select-input">
+                            <input type="radio" name="rating" class="radio-input" value="">
+                            <span class="check-desc">1 Stars & above</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="filter-sort">
+                    <h4>Sort</h4>
+                    <div class="flex-gap">
+                        <label class="select-input">
+                            <input type="radio" name="sort" class="radio-input" value="" checked>
+                            <span class="check-desc">Price-Low to High</span>
+                        </label>
+                        <label class="select-input">
+                            <input type="radio" name="sort" class="radio-input" value="" checked>
+                            <span class="check-desc">Price-High to Low</span>
+                        </label>
+
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+        
+            <div class="product-list-container">
+                <div class="product-list-header">
+                    <h3>Showing All Products</h3>
+                    <p>(Showing 12 Products)</p>
+                </div>
+                <div class="product-list">
+                    <div class="product-item">
+                        <div class="card">
+                            <a href=""><img src="../img/rcb.jpg" class="card-img"alt=""></a>
+                            <span class="badge">Best Seller</span>
+                            <span class="wishlist-icon"><i class="fas fa-thin fa-heart some"></i></span>
+                            <button class="btn">
+                                <span class="btn_text">4.5 |</span>
+                                <span class="btn_icon"><i class="fas fa-thin fa-star"></i></span>
+                            </button>
+                        </div>
+                        <div class="desc">
+                            <h4>RCB Jersey</h4>
+                            <div class="sub-description">
+                                <p class="product-type_description">Printed Sports Jersey</p>
+                                <span class="actual_price">Rs 1484</span>
+                                <span class="discount" >Rs 3299</span><span class="off">(55% OFF)</span>
+                            </div>
+                            <button class="add_cart">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="card">
+                            <a href=""><img src="../img/aus.png" class="card-img"alt=""></a>
+                            <span class="wishlist-icon"><i class="fas fa-thin fa-heart some"></i></span>
+                            <button class="btn">
+                                <span class="btn_text">3.5 |</span>
+                                <span class="btn_icon"><i class="fas fa-thin fa-star"></i></span>
+                            </button>
+                        </div>
+                        <div class="desc">
+                            <h4>Aus ODI Jersey</h4>
+                            <div class="sub-description">
+                                <p class="product-type_description">Printed Sports Jersey</p>
+                                <span class="actual_price">Rs 1200</span>
+                                <span class="discount" >Rs 2499</span><span class="off">(51% OFF)</span>
+                            </div>
+                            <button class="add_cart">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="card">
+                            <a href=""><img src="../img/retro_ind.jpg" class="card-img"alt=""></a>
+                            <span class="wishlist-icon"><i class="fas fa-thin fa-heart some"></i></span>
+                            <button class="btn">
+                                <span class="btn_text">2.5 |</span>
+                                <span class="btn_icon"><i class="fas fa-thin fa-star"></i></span>
+                            </button>
+                        </div>
+                        <div class="desc">
+                            <h4>India ODI Jersey(Retro)</h4>
+                            <div class="sub-description">
+                                <p class="product-type_description">Printed Sports Jersey</p>
+                                <span class="actual_price">Rs 599</span>
+                                <span class="discount" >Rs 1999</span><span class="off">(65% OFF)</span>
+                            </div>
+                            <button class="add_cart">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="card">
+                            <a href=""><img src="../img/eng_retro.jpg" class="card-img"alt=""></a>
+                            <span class="wishlist-icon"><i class="fas fa-thin fa-heart some"></i></span>
+                            <button class="btn">
+                                <span class="btn_text">3.9 |</span>
+                                <span class="btn_icon"><i class="fas fa-thin fa-star"></i></span>
+                            </button>
+                        </div>
+                        <div class="desc">
+                            <h4>England ODI Cricket Shirt</h4>
+                            <div class="sub-description">
+                                <p class="product-type_description">Printed Sports Jersey</p>
+                                <span class="actual_price">Rs 2484</span>
+                                <span class="discount" >Rs 3299</span><span class="off">(35% OFF)</span>
+                            </div>
+                            <button class="add_cart">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-item"><div class="card">
+                        <a href=""><img src="../img/kings.jpeg" class="card-img"alt=""></a>
+                        <span class="wishlist-icon"><i class="fas fa-thin fa-heart some"></i></span>
+                        <button class="btn">
+                            <span class="btn_text">3.7 |</span>
+                            <span class="btn_icon"><i class="fas fa-thin fa-star"></i></span>
+                        </button>
+                    </div>
+                    <div class="desc">
+                        <h4>Punjab Kings</h4>
+                        <div class="sub-description">
+                            <p class="product-type_description">Printed Sports Jersey</p>
+                            <span class="actual_price">Rs 1000</span>
+                            <span class="discount" >Rs 2000</span><span class="off">(50% OFF)</span>
+                        </div>
+                        <button class="add_cart">
+                            Add To Cart
+                        </button>
+                    </div></div>
+                    <div class="product-item">
+                        <div class="card">
+                            <a href=""><img src="../img/csk.jpeg" class="card-img"alt="CSK_NEW_jersey"></a>
+                            <span class="badge">Best Seller</span>
+                            <span class="wishlist-icon"><i class="fas fa-thin fa-heart some"></i></span>
+                            <button class="btn">
+                                <span class="btn_text">4.2 |</span>
+                                <span class="btn_icon"><i class="fas fa-thin fa-star"></i></span>
+                            </button>
+                        </div>
+                        <div class="desc">
+                            <h4>CSK Jersey</h4>
+                            <div class="sub-description">
+                                <p class="product-type_description">Printed Sports Jersey</p>
+                                <span class="actual_price">Rs 2599</span>
+                                <span class="discount" >Rs 3299</span><span class="off">(25% OFF)</span>
+                            </div>
+                            <button class="add_cart">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="card">
+                            <a href=""><img src="../img/ipl_csk.jpg" class="card-img"alt="chennai super king"></a>
+                            <span class="badge">Best Seller</span>
+                            <span class="wishlist-icon"><i class="fas fa-thin fa-heart some"></i></span>
+                            <button class="btn">
+                                <span class="btn_text">4.5 |</span>
+                                <span class="btn_icon"><i class="fas fa-thin fa-star"></i></span>
+                            </button>
+                        </div>
+                        <div class="desc">
+                            <h4>CSK OLD Jersey</h4>
+                            <div class="sub-description">
+                                <p class="product-type_description">Printed Sports Jersey</p>
+                                <span class="actual_price">Rs 500</span>
+                                <span class="discount" >Rs 3299</span><span class="off">(85% OFF)</span>
+                            </div>
+                            <button class="add_cart">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </div>
+                   
+                    <div class="product-item">
+                        <div class="card">
+                            <a href=""><img src="../img/test_final.jpg" class="card-img"alt="test_cricket"></a>
+                            <span class="badge">Best Seller</span>
+                            <span class="wishlist-icon"><i class="fas fa-thin fa-heart some"></i></span>
+                            <button class="btn">
+                                <span class="btn_text">4.5 |</span>
+                                <span class="btn_icon"><i class="fas fa-thin fa-star"></i></span>
+                            </button>
+                        </div>
+                        <div class="desc">
+                            <h4>Indian Cricket Test Jersey</h4>
+                            <div class="sub-description">
+                                <p class="product-type_description">Printed Sports Jersey</p>
+                                <span class="actual_price">Rs 4000</span>
+                                <span class="discount" >Rs 6000</span><span class="off">(20% OFF)</span>
+                            </div>
+                            <button class="add_cart">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="card">
+                            <a href=""><img src="../img/mi1.png" class="card-img"alt=""></a>
+                            <span class="badge">Best Seller</span>
+                            <span class="wishlist-icon"><i class="fas fa-thin fa-heart some"></i></span>
+                            <button class="btn">
+                                <span class="btn_text">4.5 |</span>
+                                <span class="btn_icon"><i class="fas fa-thin fa-star"></i></span>
+                            </button>
+                        </div>
+                        <div class="desc">
+                            <h4>Mumbai Indians Jersey</h4>
+                            <div class="sub-description">
+                                <p class="product-type_description">Printed Sports Jersey</p>
+                                <span class="actual_price">Rs 3679</span>
+                                <span class="discount" >Rs 4599</span><span class="off">(20% OFF)</span>
+                            </div>
+                            <button class="add_cart">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="card">
+                            <a href=""><img src="../img/raj_final.jpg" class="card-img"alt=""></a>
+                            <span class="wishlist-icon"><i class="fas fa-thin fa-heart some"></i></span>
+                            <button class="btn">
+                                <span class="btn_text">4.5 |</span>
+                                <span class="btn_icon"><i class="fas fa-thin fa-star"></i></span>
+                            </button>
+                        </div>
+                        <div class="desc">
+                            <h4>Rajasthan Royals Jersey</h4>
+                            <div class="sub-description">
+                                <p class="product-type_description">Printed Sports Jersey</p>
+                                <span class="actual_price">Rs 1500</span>
+                                <span class="discount" >Rs 3000</span><span class="off">(50% OFF)</span>
+                            </div>
+                            <button class="add_cart">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-item"><div class="card">
+                        <a href=""><img src="../img/dc1.jpg" class="card-img"alt=""></a>
+                        <span class="badge">Best Seller</span>
+                        <span class="wishlist-icon"><i class="fas fa-thin fa-heart some"></i></span>
+                        <button class="btn">
+                            <span class="btn_text">4.5 |</span>
+                            <span class="btn_icon"><i class="fas fa-thin fa-star"></i></span>
+                        </button>
+                    </div>
+                    <div class="desc">
+                        <h4>Delhi Capitals Jersey</h4>
+                        <div class="sub-description">
+                            <p class="product-type_description">Printed Sports Jersey</p>
+                            <span class="actual_price">Rs 2789</span>
+                            <span class="discount" >Rs 3299</span><span class="off">(15% OFF)</span>
+                        </div>
+                        <button class="add_cart">
+                            Add To Cart
+                        </button>
+                    </div></div>
+                    <div class="product-item"><div class="card">
+                        <a href=""><img src="../img/kkr_final.jpeg" class="card-img"alt=""></a>
+                        <span class="wishlist-icon"><i class="fas fa-thin fa-heart some"></i></span>
+                        <button class="btn">
+                            <span class="btn_text">4.5 |</span>
+                            <span class="btn_icon"><i class="fas fa-thin fa-star"></i></span>
+                        </button>
+                    </div>
+                    <div class="desc">
+                        <h4>Kolkata Knight Riders Jersey</h4>
+                        <div class="sub-description">
+                            <p class="product-type_description">Printed Sports Jersey</p>
+                            <span class="actual_price">Rs 800</span>
+                            <span class="discount" >Rs 1799</span><span class="off">(55% OFF)</span>
+                        </div>
+                        <button class="add_cart">
+                            Add To Cart
+                        </button>
+                    </div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
