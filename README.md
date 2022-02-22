@@ -15,4 +15,4 @@
 - [Signup](https://jerseydotcom.netlify.app/signup/signup.html)
 
 # GIF
-[Jersey](https://github.com/inductionotg/jersey.com-ecom/blob/7451e042f3e33dcdccfab4625167f9e4a5cb7166/jerseydotcom.gif)
+![Jersey](https://github.com/inductionotg/jersey.com-ecom/blob/7451e042f3e33dcdccfab4625167f9e4a5cb7166/jerseydotcom.gif)
